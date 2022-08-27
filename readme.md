@@ -26,3 +26,11 @@ so I've scheduled this task to run 3 times a week.
 
 ![alt text](./TaskSetting3.JPG "Task Schedule SendPrintSheet 3")
 
+**Powershell related**
+
+If you find that the script isn't working despite configuring as above, then it may be that Powershell scripts are not enabled to run on your computer.
+To fix: 
+
+1. Open PowerShell Console by selecting “Run as Administrator” and set the execution Policy with the command: Set-ExecutionPolicy RemoteSigned
+
+2. Type “Y” when prompted to proceed.
